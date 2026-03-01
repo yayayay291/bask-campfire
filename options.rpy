@@ -178,6 +178,13 @@ init python:
 
     ## Classify files as None to exclude them from the built distributions.
 
+    build.archive("everything", "all")
+
+    build.classify("game/**.png", "everything")
+    build.classify("game/**.jpg", "everything")
+    build.classify("game/**.rpyc", "everything")
+    build.classify("game/**.ogg", "everything")
+
     build.classify('**~', None)
     build.classify('**.bak', None)
     build.classify('**/.**', None)
