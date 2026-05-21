@@ -854,17 +854,17 @@ label start:
         "Kitchen":
             k "How about the kitchen?"
             h "Fatty…"
-            show kage annoyedspeaking
+            show kage annoyedspeaking at center
             k "Hey I heard that!"
-            show kage normalspeaking
+            show kage normalspeaking at center
             e "Total clowns."
             "Narrator" "They walked to the kitchen, the floors creaking underneath, the turning\ncooler with each step."
             scene bg dirtykitchen
-            show kage speakingnormal
-            show horatio speaking
-            show lance speaking
-            show dion speaking
-            show ezekiel speaking
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show lance speaking at left
+            show dion speaking at  slightright
+            show ezekiel speaking at right
             "Creaking Sound"
 
             l "Guys…it smells really bad… I know it smelt bad before but this is just straight\nnasty…"
@@ -872,15 +872,15 @@ label start:
             h "Smells like road kill up in here"
             d "Genuinely what is that though?"
             k "guys…what is that…"
-            show kage shocked
+            show kage shocked at center
             "Narrator" "Kage pointed to the rotting pot on the kitchen stove. The boy walked closer\nto get a clear view of the substance in the pot…"
-            show kage speakingnormal
+            show kage speakingnormal at center
             scene bg rotingpot
-            show kage speakingnormal
-            show horatio speaking
-            show lance speaking
-            show dion speaking
-            show ezekiel speaking
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show lance speaking at left
+            show dion speaking at slightright
+            show ezekiel speaking at right
             e "Ew… is that an animal?"
             h "It seems like a goat?"
             l "i-if it is where is the head?"
@@ -891,32 +891,32 @@ label start:
                 "Open the fridge?"
                 "Yes":
                     k "Let's open it."
-                    show horatio scared
+                    show horatio scared at slightleft
                     h "What?! No, are you crazy!?!"
-                    show horatio normal
+                    show horatio normal at slightleft
                     d "Why not? We can finally see what else is making this place stink so bad"
                     e "Yea, just do it"
                     "Narrator" "Kage opens the door of the fridge…Inside were dead rats, a carton of\neggs, and a silver dagger with such intricate design on its handle."
                     scene bg kitchenwithdagger
-                    show kage speakingnormal
-                    show horatio speaking
-                    show lance speaking
-                    show dion speaking
-                    show ezekiel speaking
+                    show kage speakingnormal at center
+                    show horatio speaking at slightleft
+                    show lance speaking at left
+                    show dion speaking at slightright
+                    show ezekiel speaking at right
                     d "At least they're eggs?"
-                    show ezekiel annoyed
+                    show ezekiel annoyed at right
                     e "Don't even play right now. I'm not eating ANYTHING from this household."
-                    show ezekiel speaking
+                    show ezekiel speaking at right
                     menu:
                         "Take the dagger or not?"
                         "Yes":
                             "Narrator" "Kage pocketed the dagger just in case"
                             scene bg kicthennodagger
-                            show kage speakingnormal
-                            show horatio speaking
-                            show lance speaking
-                            show dion speaking
-                            show ezekiel speaking
+                            show kage speakingnormal at center
+                            show horatio speaking at slightleft
+                            show lance speaking at left
+                            show dion speaking at slightright
+                            show ezekiel speaking at right
                             $ backpack.append("Dagger");
                             $ list_backpack = ", ".join(backpack)
                             e "You're actually touching that?"
@@ -933,11 +933,11 @@ label start:
                     k "fine"
             "Narrator" "They walked away from the kitchen."
             scene bg hauntedlivingroom 
-            show kage speakingnormal
-            show horatio speaking
-            show lance speaking
-            show dion speaking
-            show ezekiel speaking       
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show lance speaking at left
+            show dion speaking at slightright
+            show ezekiel speaking at right    
         "Living Room":
             k "How about the living room?"
             h "Yea let's go."
@@ -946,41 +946,41 @@ label start:
             d "You sure? I mean you're naturally clumsy dude."
             "Narrator" "Lance decided to look under the carpet because he for sure felt something"
             scene bg pentagramlift
-            show kage speakingnormal
-            show horatio speaking
-            show lance speaking
-            show dion speaking
-            show ezekiel speaking
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show lance speaking at left
+            show dion speaking at slightright
+            show ezekiel speaking at right
             l "Y'all have to see this"
             h "Whatever y'all do please be careful!"
-            show ezekiel shocked
+            show ezekiel shocked at right
             e "Holy- there's a pentagram! A-and why are there scratches?!"
-            show ezekiel speaking
+            show ezekiel speaking at right
             "Narrator" "Under the carpet was a carved pentagram on the wooden floor. There were numerous scratches on the pentagram… as if someone did them…"
             "Narrator" "Lance looked around a bit scared"
-            show lance shocked
+            show lance shocked at left
             l "There's some candles and an altar here."
-            show lance speaking
+            show lance speaking at left
             scene bg candlealtar
-            show kage speakingnormal
-            show horatio speaking
-            show dion speaking
-            show ezekiel speaking
-            show dion shocked
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show dion speaking at slightright
+            show ezekiel speaking at right
+            show dion shocked at slightright
             d "Guys look at the wall behind you…"
             show dion speaking
             "Narrator" "The boys looked behind, only to see more symbols carved in the walls… with hand and foot prints staining the walls and ceiling"
             scene bg bloodywall
-            show kage speakingnormal
-            show horatio speaking
-            show dion speaking
-            show ezekiel speaking
-            show ezekiel shocked
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show dion speaking at slightright
+            show ezekiel speaking at right
+            show ezekiel shocked at right
             e "What the absolute!-"
-            show ezekiel speaking
-            show horatio shocked
+            show ezekiel speaking at right
+            show horatio shocked at slightleft
             h "There's footprints on the ceiling?!"
-            show horatio speaking
+            show horatio speaking at slightleft
             k "Hundred percent someone doing some ritual! This is so shady"
             d "Mad sketchy. I must admit"
             h "I saw these things somewhere before… I'm not sure if they are used to get rid of spirits, ghosts, or curses or if they summon these entities."
@@ -992,9 +992,9 @@ label start:
                 "What to do about the living room?"
                 "Keep exploring at our own risk..":
                     scene bg sofawithcross
-                    show kage speakingnormal
-                    show dion speaking
-                    show ezekiel speaking
+                    show kage speakingnormal at center
+                    show dion speaking at slightright
+                    show ezekiel speaking at right
                     e "Guys, I think I found something"
                     d "Looks like a cross, should we keep it?"
                     menu:
@@ -1005,48 +1005,48 @@ label start:
                             $ backpack.append("Cross");
                             $ list_backpack = ", ".join(backpack)
                             scene bg sofanocross
-                            show kage speakingnormal
-                            show dion speaking
-                            show ezekiel speaking
+                            show kage speakingnormal at center
+                            show dion speaking at slightright
+                            show ezekiel speaking at right
                         "No":
                             k "Should I keep it-"
                             d "Nah, don't. We ball without trust."
                     e "I don't know about y'all, but I have had enough of this. Let's just get out of here."
                     "Narrator" "They leave the living room"
                     scene bg hauntedlivingroom
-                    show ezekiel speaking
+                    show ezekiel speaking at right
                 "Turn around before it's too late":
                     e "I don't know about y'all, but I have had enough of this. Let's just get out of here."
                     "Narrator" "They leave the living room"
                     scene bg hauntedlivingroom
         "Bathroom":
             scene bg bathroom
-            show kage speakingnormal
-            show horatio speaking
-            show lance speaking
-            show dion speaking
-            show ezekiel speaking
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show lance speaking at left
+            show dion speaking at slightright
+            show ezekiel speaking at right
             k "How about the bathroom?"
-            show dion shocked
+            show dion shocked at slightright
             d "Wow, this place looks run down."
-            show dion speaking
+            show dion speaking at slightright
             l "Dare I say this smells worse than the kitchen"
             e "No joke guys, it smells like straight dookie."
             k "This bathroom also looks familiar- the counter always had cracks on it, I've felt these cracks before. When though?"
-            show ezekiel annoyed
+            show ezekiel annoyed at right
             e "Quit playing, genuinely. This is already giving me stress- stop adding on. My fan girls will ditch me and my aura will crash like the stock market during the great depression. I'm not even joking when I say I'll beat your-"
-            show ezekiel speaking
+            show ezekiel speaking at right
             d "woah woah, calm down petty pink princess, you'll be safe. Take a deep breath."
-            show ezekiel annoyed
+            show ezekiel annoyed at right
             e "Whatever"
-            show ezekiel speaking
+            show ezekiel speaking at right
             l "On the bright side at least we can use the bathroom? If we need"
-            show horatio annoyed
+            show horatio annoyed at slightleft
             h "Thanks for the genuine moral support, truly appreciate it"
-            show horatio speaking
-            show ezekiel annoyed
+            show horatio speaking at slightleft
+            show ezekiel annoyed at right
             e "Yea lance, that fixes everything!"
-            show ezekiel speaking
+            show ezekiel speaking at right
             k "Hey, at least he's trying to be supportive and positive"
             e "…Yea you're right, my bad Lance"
             "Narrator" "Lance nodded sheepishly"
@@ -1057,11 +1057,11 @@ label start:
                     k "Yes, let's do it."
                     "Narrator" "Kage opened the bathroom cabinet. Inside were the basic items such as a toothbrush, paste, toilet paper, however, there were a lot of pill bottles, and a small vial with a clear liquid."
                     scene bg vialcabinet
-                    show kage speakingnormal
-                    show horatio speaking
-                    show lance speaking
-                    show dion speaking
-                    show ezekiel speaking
+                    show kage speakingnormal at center
+                    show horatio speaking at slightleft
+                    show lance speaking at left
+                    show dion speaking at slightright
+                    show ezekiel speaking at right
                     l "Wait, what's that vial?"
                     d "Bro…how are we supposed to know?"
                     l "I don't know? A wild guess?"
@@ -1077,11 +1077,11 @@ label start:
                             $ backpack.append("Vial");
                             $ list_backpack = ", ".join(backpack)
                             scene bg novialcabinet
-                            show kage speakingnormal
-                            show horatio speaking
-                            show lance speaking
-                            show dion speaking
-                            show ezekiel speaking
+                            show kage speakingnormal at center
+                            show horatio speaking at slightleft
+                            show lance speaking at left
+                            show dion speaking at slightright
+                            show ezekiel speaking at right
                             l "Yea, let's go now please"
                             "Narrator" "Dion nodded and Ezekiel was happy to leave the nasty bathroom"
                         "No":
@@ -1096,18 +1096,18 @@ label start:
             scene bg hauntedlivingroom     
         "Dining Room":
             scene bg lightdining
-            show kage speakingnormal
-            show horatio speaking
-            show lance speaking
-            show dion speaking
-            show ezekiel speaking
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show lance speaking at left
+            show dion speaking at slightright
+            show ezekiel speaking at right
             k "How about the dining room?"
             h "Why do the lights above keep flickering?"
             e "Nah the real question is how does this house even have electricity in the first place. This broke ahh house for real."
             k "Funny- that light was always weird when I was little"
-            show ezekiel annoyed
+            show ezekiel annoyed at right
             e "There you go again with the reminiscence. It truly freaking me out man"
-            show ezekiel speaking
+            show ezekiel speaking at right
             h "Wait Kage? You've been here before?"
             k "What? No, but my childhood house was similar to this"
             e "Shut up, I see something under the table"
@@ -1115,20 +1115,20 @@ label start:
                 "Check under the table?"
                 "Yes":
                     scene bg saltundertable
-                    show kage speakingnormal
-                    show horatio speaking
-                    show lance speaking
-                    show dion speaking
-                    show ezekiel speaking
+                    show kage speakingnormal at center
+                    show horatio speaking at slightleft
+                    show lance speaking at left
+                    show dion speaking at slightright
+                    show ezekiel speaking at right
                     d "It looks to me like a bag of salt"
                     e "Swear it was some American who lived here. That salt is the only seasoning they use, that's why they got so much."
                     k "My mom BARELY put anything in our food….But then again she barely did anything for me."
                     e "Oh wow, lore drop"
                     h "You idiot. That's not the only reason salt is used. This is what they use to draw the symbols and outline protective areas."
                     e "Actually?"
-                    show lance scared
+                    show lance scared at left
                     l "I swear to god a cult maybe lived here"
-                    show lance speaking
+                    show lance speaking at left
                     d "Do you think we should keep it? Is it some clue?"
                     k "Maybe"
                     menu:
@@ -1138,11 +1138,11 @@ label start:
                             $ backpack.append("Salt");
                             $ list_backpack = ", ".join(backpack)
                             scene bg underdiningtable
-                            show kage speakingnormal
-                            show horatio speaking
-                            show lance speaking
-                            show dion speaking
-                            show ezekiel speaking
+                            show kage speakingnormal at center
+                            show horatio speaking at slightleft
+                            show lance speaking at left
+                            show dion speaking at slightright
+                            show ezekiel speaking at right
                         "No":
                             k "I don't know- I have a feeling bad things may happen"
                             d "Just keep it there then."
@@ -1159,17 +1159,17 @@ label start:
         "Kitchen":
             k "How about the kitchen?"
             h "Fatty…"
-            show kage annoyedspeaking
+            show kage annoyedspeaking at center
             k "Hey I heard that!"
-            show kage normalspeaking
+            show kage normalspeaking at center
             e "Total clowns."
             "Narrator" "They walked to the kitchen, the floors creaking underneath, the turning\ncooler with each step."
             scene bg dirtykitchen
-            show kage speakingnormal
-            show horatio speaking
-            show lance speaking
-            show dion speaking
-            show ezekiel speaking
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show lance speaking at left
+            show dion speaking at slightright
+            show ezekiel speaking at right
             "Creaking Sound"
 
             l "Guys…it smells really bad… I know it smelt bad before but this is just straight\nnasty…"
@@ -1177,15 +1177,15 @@ label start:
             h "Smells like road kill up in here"
             d "Genuinely what is that though?"
             k "guys…what is that…"
-            show kage shocked
+            show kage shocked at center
             "Narrator" "Kage pointed to the rotting pot on the kitchen stove. The boy walked closer\nto get a clear view of the substance in the pot…"
-            show kage speakingnormal
+            show kage speakingnormal at center
             scene bg rotingpot
-            show kage speakingnormal
-            show horatio speaking
-            show lance speaking
-            show dion speaking
-            show ezekiel speaking
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show lance speaking at left
+            show dion speaking at slightright
+            show ezekiel speaking at right
             e "Ew… is that an animal?"
             h "It seems like a goat?"
             l "i-if it is where is the head?"
@@ -1196,32 +1196,32 @@ label start:
                 "Open the fridge?"
                 "Yes":
                     k "Let's open it."
-                    show horatio scared
+                    show horatio scared at slightleft
                     h "What?! No, are you crazy!?!"
-                    show horatio normal
+                    show horatio normal at slightleft
                     d "Why not? We can finally see what else is making this place stink so bad"
                     e "Yea, just do it"
                     "Narrator" "Kage opens the door of the fridge…Inside were dead rats, a carton of\neggs, and a silver dagger with such intricate design on its handle."
-                    scene bg kitchenwithdagger
-                    show kage speakingnormal
-                    show horatio speaking
-                    show lance speaking
-                    show dion speaking
-                    show ezekiel speaking
+                    scene bg kitchenwithdagger 
+                    show kage speakingnormal at center
+                    show horatio speaking at slightleft
+                    show lance speaking at left
+                    show dion speaking at slightright
+                    show ezekiel speaking at right
                     d "At least they're eggs?"
-                    show ezekiel annoyed
+                    show ezekiel annoyed at right
                     e "Don't even play right now. I'm not eating ANYTHING from this household."
-                    show ezekiel speaking
+                    show ezekiel speaking at right
                     menu:
                         "Take the dagger or not?"
                         "Yes":
                             "Narrator" "Kage pocketed the dagger just in case"
                             scene bg kicthennodagger
-                            show kage speakingnormal
-                            show horatio speaking
-                            show lance speaking
-                            show dion speaking
-                            show ezekiel speaking
+                            show kage speakingnormal at center
+                            show horatio speaking at slightleft
+                            show lance speaking at left
+                            show dion speaking at slightright
+                            show ezekiel speaking at right
                             $ backpack.append("Dagger");
                             $ list_backpack = ", ".join(backpack)
                             e "You're actually touching that?"
@@ -1238,11 +1238,11 @@ label start:
                     k "fine"
             "Narrator" "They walked away from the kitchen."
             scene bg hauntedlivingroom 
-            show kage speakingnormal
-            show horatio speaking
-            show lance speaking
-            show dion speaking
-            show ezekiel speaking       
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show lance speaking at left
+            show dion speaking at slightright
+            show ezekiel speaking at right    
         "Living Room":
             k "How about the living room?"
             h "Yea let's go."
@@ -1251,41 +1251,41 @@ label start:
             d "You sure? I mean you're naturally clumsy dude."
             "Narrator" "Lance decided to look under the carpet because he for sure felt something"
             scene bg pentagramlift
-            show kage speakingnormal
-            show horatio speaking
-            show lance speaking
-            show dion speaking
-            show ezekiel speaking
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show lance speaking at left
+            show dion speaking at slightright
+            show ezekiel speaking at right
             l "Y'all have to see this"
             h "Whatever y'all do please be careful!"
-            show ezekiel shocked
+            show ezekiel shocked at right
             e "Holy- there's a pentagram! A-and why are there scratches?!"
-            show ezekiel speaking
+            show ezekiel speaking at right
             "Narrator" "Under the carpet was a carved pentagram on the wooden floor. There were numerous scratches on the pentagram… as if someone did them…"
             "Narrator" "Lance looked around a bit scared"
-            show lance shocked
+            show lance shocked at left
             l "There's some candles and an altar here."
-            show lance speaking
+            show lance speaking at left
             scene bg candlealtar
-            show kage speakingnormal
-            show horatio speaking
-            show dion speaking
-            show ezekiel speaking
-            show dion shocked
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show dion speaking at slightright
+            show ezekiel speaking at right
+            show dion shocked at slightright
             d "Guys look at the wall behind you…"
-            show dion speaking
+            show dion speaking at slightright
             "Narrator" "The boys looked behind, only to see more symbols carved in the walls… with hand and foot prints staining the walls and ceiling"
             scene bg bloodywall
-            show kage speakingnormal
-            show horatio speaking
-            show dion speaking
-            show ezekiel speaking
-            show ezekiel shocked
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show dion speaking at slightright
+            show ezekiel speaking at right
+            show ezekiel shocked at right
             e "What the absolute!-"
-            show ezekiel speaking
-            show horatio shocked
+            show ezekiel speaking at right
+            show horatio shocked at slightleft
             h "There's footprints on the ceiling?!"
-            show horatio speaking
+            show horatio speaking at slightleft
             k "Hundred percent someone doing some ritual! This is so shady"
             d "Mad sketchy. I must admit"
             h "I saw these things somewhere before… I'm not sure if they are used to get rid of spirits, ghosts, or curses or if they summon these entities."
@@ -1297,9 +1297,9 @@ label start:
                 "What to do about the living room?"
                 "Keep exploring at our own risk..":
                     scene bg sofawithcross
-                    show kage speakingnormal
-                    show dion speaking
-                    show ezekiel speaking
+                    show kage speakingnormal at center
+                    show dion speaking at slightright
+                    show ezekiel speaking at right
                     e "Guys, I think I found something"
                     d "Looks like a cross, should we keep it?"
                     menu:
@@ -1310,48 +1310,48 @@ label start:
                             $ backpack.append("Cross");
                             $ list_backpack = ", ".join(backpack)
                             scene bg sofanocross
-                            show kage speakingnormal
-                            show dion speaking
-                            show ezekiel speaking
+                            show kage speakingnormal at center
+                            show dion speaking at slightright
+                            show ezekiel speaking at right
                         "No":
                             k "Should I keep it-"
                             d "Nah, don't. We ball without trust."
                     e "I don't know about y'all, but I have had enough of this. Let's just get out of here."
                     "Narrator" "They leave the living room"
                     scene bg hauntedlivingroom
-                    show ezekiel speaking
+                    show ezekiel speaking at right
                 "Turn around before it's too late":
                     e "I don't know about y'all, but I have had enough of this. Let's just get out of here."
                     "Narrator" "They leave the living room"
                     scene bg hauntedlivingroom
         "Bathroom":
             scene bg bathroom
-            show kage speakingnormal
-            show horatio speaking
-            show lance speaking
-            show dion speaking
-            show ezekiel speaking
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show lance speaking at left
+            show dion speaking at slightright
+            show ezekiel speaking at right
             k "How about the bathroom?"
-            show dion shocked
+            show dion shocked at slightright
             d "Wow, this place looks run down."
-            show dion speaking
+            show dion speaking at slightright
             l "Dare I say this smells worse than the kitchen"
             e "No joke guys, it smells like straight dookie."
             k "This bathroom also looks familiar- the counter always had cracks on it, I've felt these cracks before. When though?"
-            show ezekiel annoyed
+            show ezekiel annoyed at right
             e "Quit playing, genuinely. This is already giving me stress- stop adding on. My fan girls will ditch me and my aura will crash like the stock market during the great depression. I'm not even joking when I say I'll beat your-"
-            show ezekiel speaking
+            show ezekiel speaking at right
             d "woah woah, calm down petty pink princess, you'll be safe. Take a deep breath."
-            show ezekiel annoyed
+            show ezekiel annoyed at right
             e "Whatever"
-            show ezekiel speaking
+            show ezekiel speaking at right
             l "On the bright side at least we can use the bathroom? If we need"
-            show horatio annoyed
+            show horatio annoyed at slightleft
             h "Thanks for the genuine moral support, truly appreciate it"
-            show horatio speaking
-            show ezekiel annoyed
+            show horatio speaking at slightleft
+            show ezekiel annoyed at right
             e "Yea lance, that fixes everything!"
-            show ezekiel speaking
+            show ezekiel speaking at right
             k "Hey, at least he's trying to be supportive and positive"
             e "…Yea you're right, my bad Lance"
             "Narrator" "Lance nodded sheepishly"
@@ -1362,11 +1362,11 @@ label start:
                     k "Yes, let's do it."
                     "Narrator" "Kage opened the bathroom cabinet. Inside were the basic items such as a toothbrush, paste, toilet paper, however, there were a lot of pill bottles, and a small vial with a clear liquid."
                     scene bg vialcabinet
-                    show kage speakingnormal
-                    show horatio speaking
-                    show lance speaking
-                    show dion speaking
-                    show ezekiel speaking
+                    show kage speakingnormal at center
+                    show horatio speaking at slightleft
+                    show lance speaking at left
+                    show dion speaking at slightright
+                    show ezekiel speaking at right
                     l "Wait, what's that vial?"
                     d "Bro…how are we supposed to know?"
                     l "I don't know? A wild guess?"
@@ -1382,11 +1382,11 @@ label start:
                             $ backpack.append("Vial");
                             $ list_backpack = ", ".join(backpack)
                             scene bg novialcabinet
-                            show kage speakingnormal
-                            show horatio speaking
-                            show lance speaking
-                            show dion speaking
-                            show ezekiel speaking
+                            show kage speakingnormal at center
+                            show horatio speaking at slightleft
+                            show lance speaking at left
+                            show dion speaking at slightright
+                            show ezekiel speaking at right
                             l "Yea, let's go now please"
                             "Narrator" "Dion nodded and Ezekiel was happy to leave the nasty bathroom"
                         "No":
@@ -1401,18 +1401,18 @@ label start:
             scene bg hauntedlivingroom     
         "Dining Room":
             scene bg lightdining
-            show kage speakingnormal
-            show horatio speaking
-            show lance speaking
-            show dion speaking
-            show ezekiel speaking
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show lance speaking at left
+            show dion speaking at slightright
+            show ezekiel speaking at right
             k "How about the dining room?"
             h "Why do the lights above keep flickering?"
             e "Nah the real question is how does this house even have electricity in the first place. This broke ahh house for real."
             k "Funny- that light was always weird when I was little"
-            show ezekiel annoyed
+            show ezekiel annoyed at right
             e "There you go again with the reminiscence. It truly freaking me out man"
-            show ezekiel speaking
+            show ezekiel speaking at right
             h "Wait Kage? You've been here before?"
             k "What? No, but my childhood house was similar to this"
             e "Shut up, I see something under the table"
@@ -1420,20 +1420,20 @@ label start:
                 "Check under the table?"
                 "Yes":
                     scene bg saltundertable
-                    show kage speakingnormal
-                    show horatio speaking
-                    show lance speaking
-                    show dion speaking
-                    show ezekiel speaking
+                    show kage speakingnormal at center
+                    show horatio speaking at slightleft
+                    show lance speaking at left
+                    show dion speaking at slightright
+                    show ezekiel speaking at right
                     d "It looks to me like a bag of salt"
                     e "Swear it was some American who lived here. That salt is the only seasoning they use, that's why they got so much."
                     k "My mom BARELY put anything in our food….But then again she barely did anything for me."
                     e "Oh wow, lore drop"
                     h "You idiot. That's not the only reason salt is used. This is what they use to draw the symbols and outline protective areas."
                     e "Actually?"
-                    show lance scared
+                    show lance scared at left
                     l "I swear to god a cult maybe lived here"
-                    show lance speaking
+                    show lance speaking at left
                     d "Do you think we should keep it? Is it some clue?"
                     k "Maybe"
                     menu:
@@ -1443,11 +1443,11 @@ label start:
                             $ backpack.append("Salt");
                             $ list_backpack = ", ".join(backpack)
                             scene bg underdiningtable
-                            show kage speakingnormal
-                            show horatio speaking
-                            show lance speaking
-                            show dion speaking
-                            show ezekiel speaking
+                            show kage speakingnormal at center
+                            show horatio speaking at slightleft
+                            show lance speaking at left
+                            show dion speaking at slightright
+                            show ezekiel speaking at right
                         "No":
                             k "I don't know- I have a feeling bad things may happen"
                             d "Just keep it there then."
@@ -1461,11 +1461,11 @@ label start:
             scene bg hauntedlivingroom 
     "Narrator" "While leaving the room Lance saw a staircase leading down somewhere."
     scene bg basementstairs
-    show kage speakingnormal
-    show horatio speaking
-    show lance speaking
-    show dion speaking
-    show ezekiel speaking
+    show kage speakingnormal at center
+    show horatio speaking at slightleft
+    show lance speaking at left
+    show dion speaking at slightright
+    show ezekiel speaking at right
     l "Hey where do you guys think these stairs lead to?"
     k "The basement?"
     e "How did you know that? Have you been here before? Tell me the truth before I make Dion throw you down those stairs."
@@ -1485,24 +1485,24 @@ label start:
             show lance scared
             "Narrator" "Lance opened the door to the basement and walked in. Suddenly, the basement door slammed shut behind Lance.  Lance looks around, panicking. He's not the strongest soldier for this situation. The others are shocked and are debating whether to go in."
             scene bg basementdoor
-            show horatio speaking
-            show lance speaking
-            show dion speaking
-            show ezekiel speaking
+            show horatio speaking at slightleft
+            show lance speaking at left
+            show dion speaking at slightright
+            show ezekiel speaking at right
             d "Guys we have to break in!"
             e "Yeah guys he's all alone in there!"
             "Narrator" "Dion tried to break open the door with all his might. To the point he got scratches. They could hear Lance panicking on the other side."
-            show dion scared
+            show dion scared at slightright
             d "It is not budging!"
-            show horatio scared
+            show horatio scared at slightleft
             h "Lance! Look around the room! Is there anything you can use to break open this door?!"
             l "I-I'll try to look around!"
             "Narrator" "Lance walked around the basement shaking in fear while trying to find something heavy to break the door. In the corner of his eye, he saw a wooden box. Lance walked closer to the box expecting there to be a weapon to use. When he opened the box, he saw a dusty book titled “Liber Aeternum”. Lance hesitantly picked up the book. As he flipped through the pages, he read that the objects that we've been collecting would be used to reverse a curse."
             scene bg lightbasement
-            show lance speaking
+            show lance speaking at left
             show woman droopy
             "Narrator" "Suddenly, Lance heard a woman laughing. A cold chill went up his spine. All of a sudden, he saw a beautiful woman. The woman looked somewhat familiar to Lance"
-            show lance scared
+            show lance scared at left
             l "w-who are you?"
             "Narrator" "The woman didn't respond. The basement lights flickered and turned off. Lance heard some bones cracking."
             scene bg darkbasement
@@ -1510,15 +1510,15 @@ label start:
             scene bg darkbasement
             scene bg lightbasement
             scene bg darkbasement
-            show lance speaking
+            show lance speaking at left
             show woman grey
             "Bone Cracking Sound"
 
             l "H-hello?"
             "Narrator" "The lights turned back on. The woman was much taller, her body much more skinnier. To the point you see her bones."
             scene bg lightbasement
-            show lance speaking
-            show lance scared
+            show lance speaking at left
+            show lance scared at left
             l "P-please leave me alone"
             "Narrator" "The lights went off again, the cracking of bones got louder. When the lights turned on, the woman was on all fours like an animal, glaring at Lance. Lance got scared and backed up in fear, screaming."
             scene bg darkbasement with Pause(1)
@@ -1526,14 +1526,15 @@ label start:
             "Bone Cracking & Screaming"
 
             "Narrator" "Meanwhile the boys on the other side of the door hear Lance's screams and begin to panic. They try their hardest to break open. When suddenly a riddle is carved into the door."
-            scene bg hauntedlivingroom with pause(0.5)
-            scene bg whitedoor with pause (3)
-            show kage speakingnormal
-            show horatio speaking
-            show lance speaking
-            show dion speaking
-            show ezekiel speaking
-            show dion mad
+            scene bg hauntedlivingroom 
+            pause (0.5)
+            scene bg whitedoor
+            show kage speakingnormal at center
+            show horatio speaking at slightleft
+            show lance speaking at left
+            show dion speaking at slightright
+            show ezekiel speaking at right
+            show dion mad at slightright
             d "You're kidding…we have to answer this?!"
             h "mhmm…there could be many answers…"
             e "Um…is it literature?"
@@ -1548,8 +1549,8 @@ label start:
                     k "Literature!"
                     "Narrator" "The door shined red and a woman's laugh was heard."
                     scene bg reddoor
-                    show dion speaking
-                    show ezekiel speaking
+                    show dion speaking at slightright
+                    show ezekiel speaking at right
                     show woman droopy
                     w "Wrong answer"
                     "Narrator" "Lance's screams got louder and louder. Then pin drop silence."
@@ -1557,7 +1558,7 @@ label start:
                     e "Stop this Lance! Please say something!"
                     "Narrator" "After 5 minutes the door unlocked. The boys quickly went down the stairs to see Lance."
                     scene bg lightbasement
-                    show horatio speaking
+                    show horatio speaking at slightleft
                     "Narrator" "They found Lance. But it was far too late…"
                     "Narrator" "In Lance's hand, was the book. Horatio, tears in his eyes, went closer. Their dear friend, Lance, now folded like an origami. In his hand, was the book. They boys went closer, crying, scared, and panicked. They mourned the loss of Lance quite dearly."
                     "Narrator" "Horatio gently picked up the book"
@@ -1568,8 +1569,8 @@ label start:
                     k "Historical Moments!"
                     "Narrator" "The door shined red and a woman's laugh was heard."
                     scene bg reddoor
-                    show dion speaking
-                    show ezekiel speaking
+                    show dion speaking at slightright
+                    show ezekiel speaking at right
                     show woman droopy
                     w "Wrong answer"
                     "Narrator" "Lance's screams got louder and louder. Then pin drop silence."
@@ -1577,7 +1578,7 @@ label start:
                     e "Stop this Lance! Please say something!"
                     "Narrator" "After 5 minutes the door unlocked. The boys quickly went down the stairs to see Lance."
                     scene bg lightbasement
-                    show horatio speaking
+                    show horatio speaking at slightleft
                     "Narrator" "They found Lance. But it was far too late…"
                     "Narrator" "In Lance's hand, was the book. Horatio, tears in his eyes, went closer. Their dear friend, Lance, now folded like an origami. In his hand, was the book. They boys went closer, crying, scared, and panicked. They mourned the loss of Lance quite dearly."
                     "Narrator" "Horatio gently picked up the book"
@@ -1588,7 +1589,7 @@ label start:
                     k "A graveyard!"
                     "Narrator" "The door shined green and gently started creaking open. Kage immediately ran in and saw the scene. Lance being backed up into a corner and the monster of a woman. That woman's mutilated face was so familiar…"
                     scene bg greendoor
-                    show kage shockedspeaking
+                    show kage shockedspeaking at center
                     k "m-mom?..."
                     w "What? You assumed that I would come even in the afterlife to check on my son? I see even you have decided to join the land of the dead."
                     "Narrator" "The ghost instantly vanished."
@@ -1686,16 +1687,16 @@ label start:
                     h "Let's read it when we get out of here."
                     "Narrator" "The boys quietly agreed and headed upstairs"
                     scene bg hauntedlivingroom
-                    show kage speakingnormal
+                    show kage speakingnormal at center
                     k "Ok, lets head to the living room where our setup is"
                     "Narrator" "The boys sat down in the living room, Lance holding the book. Lance flipped through the book, and everyone found out that the previous family living here was a family of three, parents and their teen son."
                     scene bg lightsofa
-                    show lance speaking
-                    show kage speakingnormal
+                    show lance speaking at left
+                    show kage speakingnormal at center
                     "Narrator" "Apparently the two people were the father, Cassian, and the mother,Victoria. The two were popular cultists who performed rituals weekly. They've performed many dark deeds such as sacrifices, murders, and conspiracies."
                     "Narrator" "As Lance kept flipping, one page caught his eye and he froze."
                     k "What does the book say Lance?"
-                    show lance shocked
+                    show lance shocked at left
                     l "It's a picture of you, “Victoria and Cassian's son…Kage"
                     "Narrator" "Everyone paused, the lights flicked violently as the house shaked."
                     scene bg darksofa
@@ -1704,22 +1705,22 @@ label start:
                     scene bg lightsofa
                     scene bg darksofa
                     scene bg lightsofa
-                    show kage speakingnormal
-                    show horatio speaking
-                    show lance speaking
-                    show dion speaking
-                    show ezekiel speaking
+                    show kage speakingnormal at center
+                    show horatio speaking at slightleft
+                    show lance speaking at left
+                    show dion speaking at slightright
+                    show ezekiel speaking at right
                     h "Quick! Look if there's something about this ritual before anything happens!"
                     l "Lance started flipping around in the book faster trying to find an answer, until he saw it. They needed a silver dagger, a vial that contained holy water, the cross, and the salt. They needed to put all four items within the pentagram."
                     if len(backpack) == 8:
                         l "I am reading right now, and there are instructions on how to do this ritual to break the curse!"
                         k "What is it?!"
-                        show lance mad
+                        show lance mad at left
                         l "Put all the objects we found in the pentagram and then we take the names of the ghosts and burn the house! Hurry!"
                         "Narrator" "Kage dropped all the items in the pentagram. The moment all the objects fell on the pentagram, it glowed a vibrant red. The ground started shaking even more violently."
                         scene bg pentagramitems
-                        show kage speakingnormal
-                        show horatio speaking
+                        show kage speakingnormal at center
+                        show horatio speaking at slightleft
                         "Narrator" "Kage feels an odd sensation throughout his body. He can't tell clearly why it is happening. Then it hits him. He is the one that has been cursed the entire time"
                         show kage sadspeaking at center
                         k "All this time it was me. I was carrying the curse. I can't believe it."
@@ -2169,7 +2170,7 @@ label start:
             show ezekiel shocked at right
             "Narrator" "The ghost transforms into Kage's father. The ghost then starts lunging towards him"
             k "Ezekiel watch out!!"
-            show thedad mirror at left
+            show ezra mirror at left
             "Narrator" "The ghost drags Ezekiel into the mirror. The mirror turns into a picture. Ezekiel is no longer flesh but canvas, his pulse traded for perfection. He hangs in silent splendor --  forever radiant, forever admired,
 and forever without breath."
             scene bg dragezeinmirror at left
